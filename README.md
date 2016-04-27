@@ -6,7 +6,7 @@ Python server code for SDSU RP LCS. Pull from this repo to update RPi w/ latest 
 
 SSH into your Raspberry Pi and run a command similar to:
 ```
-wget https://raw.githubusercontent.com/dodson551/SDSU-Launch-Control-Server/master/Launch_Control_Server.py && sudo python Launch_Control_Server.py
+wget https://goo.gl/y74AJw && sudo python Launch_Control_Server.py
 ```
 
 ### Usage
