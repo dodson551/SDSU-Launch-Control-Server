@@ -10,7 +10,7 @@ The process for connecting to your RPi on Windows and Mac OSX is slightly differ
 
 Download and install [Putty]. This will allow you to SSH into your RPi from your windows desktop.
 
-[![Putty Screenshot](artwork/thumb_putty.png?raw=true)](artwork/putty.png?raw=true)
+![Putty Screenshot](artwork/putty.png?raw=true)
 
 From here, enter IP or hostname of Pi and click 'Open'.
 
