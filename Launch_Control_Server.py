@@ -322,6 +322,13 @@ while True:
 		elif 'abort' in data:
 			print "Received data: ", data
 			abort()
+
+		elif 'disconnect' in data:
+			print"Received data: ", data
+			conn.send("Disconnecting from server.")
+			print("Connection closing... \n")
+			conn.close()
+			break
 			
 		elif 'temp_status' in data:
 			try:
@@ -358,8 +365,8 @@ while True:
 			except Exception, e:
 				raise e
 
-	print("connection closing... \n")
-	conn.close()
+	#print("connection closing... \n")
+	#conn.close()
 		
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
 # End Script
